@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "TGT",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Minnesota",
+  "unit": null,
+  "period": null,
+  "doc": "TGT_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Minnesota",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "TGT",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Michael J. Fiddelke",
+  "unit": null,
+  "period": null,
+  "doc": "TGT_10K_FY2025.pdf",
+  "page": 82,
+  "evidence": "/s/ Michael J. Fiddelke\nMichael J. Fiddelke\nChief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "TGT",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Single Segment"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "TGT_10K_FY2025.pdf",
+  "page": 74,
+  "evidence": "We operate as a single segment that includes all of our operations, which are designed to enable guests to purchase products seamlessly in stores or through our digital channels.",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "TGT",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Single Segment"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "TGT_10K_FY2025.pdf",
+  "page": 4,
+  "evidence": "We operate as a single segment designed to enable guests to purchase products seamlessly in stores or through our digital channels.",
+  "method": "llm+quote_check"
+ }
+]

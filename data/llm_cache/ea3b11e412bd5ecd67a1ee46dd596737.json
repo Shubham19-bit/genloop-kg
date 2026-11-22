@@ -1,0 +1,22 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"PepsiCo Foods North America (PFNA)\", \"PepsiCo Beverages North America (PBNA)\", \"International Beverages Franchise (IB Franchise)\", \"Europe, Middle East and Africa (EMEA)\", \"Latin America Foods (LatAm Foods)\", \"Asia Pacific Foods\"], \"page\": 121, \"quote\": \"We are organized into six reportable segments, as follows: 1) PepsiCo Foods North America (PFNA)... 6) Asia Pacific Foods\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "PepsiCo Foods North America (PFNA)",
+     "PepsiCo Beverages North America (PBNA)",
+     "International Beverages Franchise (IB Franchise)",
+     "Europe, Middle East and Africa (EMEA)",
+     "Latin America Foods (LatAm Foods)",
+     "Asia Pacific Foods"
+    ],
+    "page": 121,
+    "quote": "We are organized into six reportable segments, as follows: 1) PepsiCo Foods North America (PFNA)... 6) Asia Pacific Foods"
+   }
+  ]
+ }
+}

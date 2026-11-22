@@ -1,0 +1,20 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"U.S. Consumer Services (USCS)\", \"Commercial Services (CS)\", \"International Card Services (ICS)\", \"Global Merchant and Network Services (GMNS)\"], \"page\": 6, \"quote\": \"We principally engage in businesses comprising four reportable operating segments: U.S. Consumer Services (USCS), Commercial Services (CS), International Card Services (ICS) and Global Merchant and Network Services (GMNS).\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "U.S. Consumer Services (USCS)",
+     "Commercial Services (CS)",
+     "International Card Services (ICS)",
+     "Global Merchant and Network Services (GMNS)"
+    ],
+    "page": 6,
+    "quote": "We principally engage in businesses comprising four reportable operating segments: U.S. Consumer Services (USCS), Commercial Services (CS), International Card Services (ICS) and Global Merchant and Network Services (GMNS)."
+   }
+  ]
+ }
+}

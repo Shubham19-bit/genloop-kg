@@ -1,0 +1,66 @@
+[
+ {
+  "ticker": "MS",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "New York, NY",
+  "unit": null,
+  "period": null,
+  "doc": "MS_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "1585 Broadway New York, NY 10036",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MS",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "MS_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MS",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Edward Pick",
+  "unit": null,
+  "period": null,
+  "doc": "MS_10K_FY2025.pdf",
+  "page": 426,
+  "evidence": "/s/ EDWARD PICK Chief Executive Officer (Edward Pick)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MS",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Sharon Yeshaya",
+  "unit": null,
+  "period": null,
+  "doc": "MS_10K_FY2025.pdf",
+  "page": 426,
+  "evidence": "/s/ SHARON YESHAYA and Chief Financial Officer (Sharon Yeshaya)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MS",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Institutional Securities",
+   "Wealth Management",
+   "Investment Management"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "MS_10K_FY2025.pdf",
+  "page": 8,
+  "evidence": "Our business segments: Institutional Securities, Wealth Management and Investment Management.",
+  "method": "llm+quote_check"
+ }
+]

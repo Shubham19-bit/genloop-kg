@@ -1,0 +1,55 @@
+[
+ {
+  "ticker": "WFC",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "San Francisco, California",
+  "unit": null,
+  "period": null,
+  "doc": "WFC_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "333 Market Street, San Francisco, California 94105 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "WFC",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "WFC_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "WFC",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Charles W. Scharf",
+  "unit": null,
+  "period": null,
+  "doc": "WFC_10K_FY2025.pdf",
+  "page": 36,
+  "evidence": "By: /s/ CHARLES W. SCHARF Charles W. Scharf Chairman and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "WFC",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Consumer Banking and Lending",
+   "Commercial Banking",
+   "Corporate and Investment Banking",
+   "Wealth and Investment Management"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "WFC_10K_FY2025.pdf",
+  "page": 47,
+  "evidence": "Our management reporting is organized into four reportable Taxable-Equivalent Adjustments. Taxable-equivalent operating segments: Consumer Banking and Lending; adjustments related to tax-exempt income on certain loans and Commercial Banking; Corporate and Investment Banking; and debt securities are included in net interest income, while Wealth and Investment Management.",
+  "method": "llm+quote_check"
+ }
+]

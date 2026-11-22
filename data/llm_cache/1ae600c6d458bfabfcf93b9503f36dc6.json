@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Oregon\", \"page\": 1, \"quote\": \"Oregon 93-0584541 (State or other jurisdiction of incorporation)\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Beaverton, Oregon\", \"page\": 1, \"quote\": \"One Bowerman Drive, Beaverton, Oregon 97005-6453 (Address of principal executive offices and zip code)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Oregon",
+    "page": 1,
+    "quote": "Oregon 93-0584541 (State or other jurisdiction of incorporation)"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Beaverton, Oregon",
+    "page": 1,
+    "quote": "One Bowerman Drive, Beaverton, Oregon 97005-6453 (Address of principal executive offices and zip code)"
+   }
+  ]
+ }
+}

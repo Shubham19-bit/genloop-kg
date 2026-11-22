@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Americas\", \"Europe\", \"Greater China\", \"Japan\", \"Rest of Asia Pacific\"], \"page\": 70, \"quote\": \"The Company\u2019s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Americas",
+     "Europe",
+     "Greater China",
+     "Japan",
+     "Rest of Asia Pacific"
+    ],
+    "page": 70,
+    "quote": "The Company\u2019s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific."
+   }
+  ]
+ }
+}

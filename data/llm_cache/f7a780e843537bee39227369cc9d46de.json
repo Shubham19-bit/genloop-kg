@@ -1,0 +1,17 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Single Reportable Segment\"], \"page\": 132, \"quote\": \"The following table summarizes information for our single reportable segment\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Single Reportable Segment"
+    ],
+    "page": 132,
+    "quote": "The following table summarizes information for our single reportable segment"
+   }
+  ]
+ }
+}

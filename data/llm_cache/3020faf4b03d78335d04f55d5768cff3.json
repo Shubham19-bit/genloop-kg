@@ -1,0 +1,21 @@
+{
+ "provider": "gemini",
+ "model": "gemini-4-hydrogen",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Cupertino, California\", \"page\": 1, \"quote\": \"One Apple Park Way\\nCupertino, California 95014\\n(Address of principal executive offices) (Zip Code)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"California\", \"page\": 1, \"quote\": \"California 94-2404110\\n(State or other jurisdiction (I.R.S. Employer Identification No.)\\nof incorporation or organization)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Cupertino, California",
+    "page": 1,
+    "quote": "One Apple Park Way\nCupertino, California 95014\n(Address of principal executive offices) (Zip Code)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "California",
+    "page": 1,
+    "quote": "California 94-2404110\n(State or other jurisdiction (I.R.S. Employer Identification No.)\nof incorporation or organization)"
+   }
+  ]
+ }
+}

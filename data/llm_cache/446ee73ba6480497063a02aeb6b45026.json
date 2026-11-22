@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Stephen Hemsley\", \"page\": 132, \"quote\": \"By /s/ STEPHEN HEMSLEY Stephen Hemsley Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Stephen Hemsley",
+    "page": 132,
+    "quote": "By /s/ STEPHEN HEMSLEY Stephen Hemsley Chief Executive Officer"
+   }
+  ]
+ }
+}

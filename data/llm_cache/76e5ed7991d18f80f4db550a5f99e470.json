@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"David Solomon\", \"page\": 596, \"quote\": \"Name: David Solomon Title: Director, Chairman and Chief Executive Officer (Principal Executive Officer)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "David Solomon",
+    "page": 596,
+    "quote": "Name: David Solomon Title: Director, Chairman and Chief Executive Officer (Principal Executive Officer)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Robert M. Davis\", \"page\": 252, \"quote\": \"By: ROBERT M. DAVIS (Chairman, Chief Executive Officer and President)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Robert M. Davis",
+    "page": 252,
+    "quote": "By: ROBERT M. DAVIS (Chairman, Chief Executive Officer and President)"
+   }
+  ]
+ }
+}

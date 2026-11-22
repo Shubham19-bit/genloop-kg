@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"United States\", \"Canada\", \"Other International\"], \"page\": 97, \"quote\": \"The following table provides the revenue, significant expenses, and operating income for the Company's reportable segments:\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "United States",
+     "Canada",
+     "Other International"
+    ],
+    "page": 97,
+    "quote": "The following table provides the revenue, significant expenses, and operating income for the Company's reportable segments:"
+   }
+  ]
+ }
+}

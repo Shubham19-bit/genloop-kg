@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Digital Media\", \"Digital Experience\", \"Publishing and Advertising\"], \"page\": 65, \"quote\": \"In fiscal 2025, we categorized our products into the following reportable segments: \u2022 Digital Media\u2014Our Digital Media segment provides products and services that enable individuals, teams, businesses, and enterprises to create, publish and promote their content anywhere and accelerate their productivity by transforming how they view, share, engage with and collaborate on documents and creative content.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Digital Media",
+     "Digital Experience",
+     "Publishing and Advertising"
+    ],
+    "page": 65,
+    "quote": "In fiscal 2025, we categorized our products into the following reportable segments: \u2022 Digital Media\u2014Our Digital Media segment provides products and services that enable individuals, teams, businesses, and enterprises to create, publish and promote their content anywhere and accelerate their productivity by transforming how they view, share, engage with and collaborate on documents and creative content."
+   }
+  ]
+ }
+}

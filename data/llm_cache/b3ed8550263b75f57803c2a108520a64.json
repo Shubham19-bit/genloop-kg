@@ -1,0 +1,34 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"steps\": [\n    {\n      \"id\": \"s1\",\n      \"op\": \"metric\",\n      \"input\": [\"KO\"],\n      \"metric\": \"DilutedEPS\"\n    },\n    {\n      \"id\": \"s2\",\n      \"op\": \"metric\",\n      \"input\": [\"PEP\"],\n      \"metric\": \"DilutedEPS\"\n    },\n    {\n      \"id\": \"s3\",\n      \"op\": \"diff\",\n      \"input\": [\"s1\", \"s2\"]\n    }\n  ],\n  \"answer\": \"s3\"\n}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "metric",
+    "input": [
+     "KO"
+    ],
+    "metric": "DilutedEPS"
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": [
+     "PEP"
+    ],
+    "metric": "DilutedEPS"
+   },
+   {
+    "id": "s3",
+    "op": "diff",
+    "input": [
+     "s1",
+     "s2"
+    ]
+   }
+  ],
+  "answer": "s3"
+ }
+}

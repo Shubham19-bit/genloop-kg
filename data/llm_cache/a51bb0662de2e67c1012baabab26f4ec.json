@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"Chief Executive Officer\", \"value\": \"Sundar Pichai\", \"page\": 162, \"quote\": \"By: /S/ SUNDAR PICHAI Sundar Pichai Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "Chief Executive Officer",
+    "value": "Sundar Pichai",
+    "page": 162,
+    "quote": "By: /S/ SUNDAR PICHAI Sundar Pichai Chief Executive Officer"
+   }
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Austin, Texas\", \"page\": 1, \"quote\": \"2300 Oracle Way Austin, Texas 78741 (Address of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"Delaware (State or other jurisdiction of incorporation or organization)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Austin, Texas",
+    "page": 1,
+    "quote": "2300 Oracle Way Austin, Texas 78741 (Address of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "Delaware (State or other jurisdiction of incorporation or organization)"
+   }
+  ]
+ }
+}

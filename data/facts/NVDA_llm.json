@@ -1,0 +1,53 @@
+[
+ {
+  "ticker": "NVDA",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "NVDA_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "NVDA",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Santa Clara, California",
+  "unit": null,
+  "period": null,
+  "doc": "NVDA_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "2788 San Tomas Expressway, Santa Clara, California 95051",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "NVDA",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Jen-Hsun Huang",
+  "unit": null,
+  "period": null,
+  "doc": "NVDA_10K_FY2025.pdf",
+  "page": 132,
+  "evidence": "By: /s/ Jen-Hsun Huang\nJen-Hsun Huang\nPresident and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "NVDA",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Compute & Networking",
+   "Graphics"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "NVDA_10K_FY2025.pdf",
+  "page": 71,
+  "evidence": "Reportable Segments Revenue by Reportable Segments Year Ended $ % Jan 25, 2026 Jan 26, 2025 Change Change ($ in millions) Compute & Networking $ 193,479 $ 116,193",
+  "method": "llm+quote_check"
+ }
+]

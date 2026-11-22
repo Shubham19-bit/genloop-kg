@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Marc N. Casper\", \"page\": 144, \"quote\": \"Marc N. Casper Chairman, President and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Marc N. Casper",
+    "page": 144,
+    "quote": "Marc N. Casper Chairman, President and Chief Executive Officer"
+   }
+  ]
+ }
+}

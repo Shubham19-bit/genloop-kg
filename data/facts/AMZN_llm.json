@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "AMZN",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Seattle, Washington",
+  "unit": null,
+  "period": null,
+  "doc": "AMZN_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "410 Terry Avenue North Seattle, Washington 98109-5210 (Address and telephone number, including area code, of registrant's principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AMZN",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "AMZN_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AMZN",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Andrew R. Jassy",
+  "unit": null,
+  "period": null,
+  "doc": "AMZN_10K_FY2025.pdf",
+  "page": 124,
+  "evidence": "By: /s/ Andrew R. Jassy\nAndrew R. Jassy\nPresident and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AMZN",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "North America",
+   "International",
+   "AWS"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "AMZN_10K_FY2025.pdf",
+  "page": 105,
+  "evidence": "We have organized our operations into three segments: North America, International, and AWS.",
+  "method": "llm+quote_check"
+ }
+]

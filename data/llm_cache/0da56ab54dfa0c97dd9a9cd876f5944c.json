@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Andrew R. Jassy\", \"page\": 124, \"quote\": \"By: /s/ Andrew R. Jassy\\nAndrew R. Jassy\\nPresident and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Andrew R. Jassy",
+    "page": 124,
+    "quote": "By: /s/ Andrew R. Jassy\nAndrew R. Jassy\nPresident and Chief Executive Officer"
+   }
+  ]
+ }
+}

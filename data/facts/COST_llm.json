@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "COST",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Issaquah, WA",
+  "unit": null,
+  "period": null,
+  "doc": "COST_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "999 Lake Drive, Issaquah, WA 98027 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "COST",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Washington",
+  "unit": null,
+  "period": null,
+  "doc": "COST_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Washington (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "COST",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Ron M. Vachris",
+  "unit": null,
+  "period": null,
+  "doc": "COST_10K_FY2025.pdf",
+  "page": 107,
+  "evidence": "Ron M. Vachris Chief Executive Officer, President and Director",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "COST",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "United States",
+   "Canada",
+   "Other International"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "COST_10K_FY2025.pdf",
+  "page": 97,
+  "evidence": "The following table provides the revenue, significant expenses, and operating income for the Company's reportable segments:",
+  "method": "llm+quote_check"
+ }
+]

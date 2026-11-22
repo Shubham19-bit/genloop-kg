@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# large / regenerable
+data/raw_html/
+data/pages/
+data/graph.pkl
+data/pdfs_keypages/
+# committed on purpose: data/pdfs/ (the corpus, so sources can be checked), data/filings.json,
+# data/facts/ (extracted facts), data/llm_cache/ (every LLM response, so eval replays exactly)

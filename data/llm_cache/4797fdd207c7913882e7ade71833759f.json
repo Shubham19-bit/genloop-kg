@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"North Carolina\", \"page\": 1, \"quote\": \"North Carolina 13-1584302 (State or Other Jurisdiction of Incorporation or Organization)\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Purchase, New York\", \"page\": 1, \"quote\": \"700 Anderson Hill Road, Purchase, New York 10577 (Address of principal executive offices and Zip Code)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "North Carolina",
+    "page": 1,
+    "quote": "North Carolina 13-1584302 (State or Other Jurisdiction of Incorporation or Organization)"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Purchase, New York",
+    "page": 1,
+    "quote": "700 Anderson Hill Road, Purchase, New York 10577 (Address of principal executive offices and Zip Code)"
+   }
+  ]
+ }
+}

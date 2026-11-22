@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Issaquah, WA\", \"page\": 1, \"quote\": \"999 Lake Drive, Issaquah, WA 98027 (Address of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"Washington\", \"page\": 1, \"quote\": \"Washington (State or other jurisdiction of incorporation or organization)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Issaquah, WA",
+    "page": 1,
+    "quote": "999 Lake Drive, Issaquah, WA 98027 (Address of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Washington",
+    "page": 1,
+    "quote": "Washington (State or other jurisdiction of incorporation or organization)"
+   }
+  ]
+ }
+}

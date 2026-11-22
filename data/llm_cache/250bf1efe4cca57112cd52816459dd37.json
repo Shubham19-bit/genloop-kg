@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Michael J. Fiddelke\", \"page\": 82, \"quote\": \"/s/ Michael J. Fiddelke\\nMichael J. Fiddelke\\nChief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Michael J. Fiddelke",
+    "page": 82,
+    "quote": "/s/ Michael J. Fiddelke\nMichael J. Fiddelke\nChief Executive Officer"
+   }
+  ]
+ }
+}

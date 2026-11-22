@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Edward P. Decker\", \"page\": 142, \"quote\": \"Edward P. Decker, Chair, President and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Edward P. Decker",
+    "page": 142,
+    "quote": "Edward P. Decker, Chair, President and Chief Executive Officer"
+   }
+  ]
+ }
+}

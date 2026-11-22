@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"New York, New York\", \"page\": 1, \"quote\": \"200 Vesey Street\\nNew York, New York 10285\\n(Address of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"New York\", \"page\": 1, \"quote\": \"New York 13-4922250\\n(State or other jurisdiction of incorporation or organization)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "New York, New York",
+    "page": 1,
+    "quote": "200 Vesey Street\nNew York, New York 10285\n(Address of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "New York",
+    "page": 1,
+    "quote": "New York 13-4922250\n(State or other jurisdiction of incorporation or organization)"
+   }
+  ]
+ }
+}

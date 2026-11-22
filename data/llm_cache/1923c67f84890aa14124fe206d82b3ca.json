@@ -1,0 +1,36 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"steps\":[{\"id\":\"s1\",\"op\":\"companies\",\"where\":{\"relation\":\"HEADQUARTERED_IN\",\"value\":\"Santa Clara, California\"}},{\"id\":\"s2\",\"op\":\"metric\",\"input\":\"s1\",\"metric\":\"OperatingIncome\"},{\"id\":\"s3\",\"op\":\"metric\",\"input\":\"s1\",\"metric\":\"Revenue\"},{\"id\":\"s4\",\"op\":\"ratio\",\"numerator\":\"s2\",\"denominator\":\"s3\"}],\"answer\":\"s4\"}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "where": {
+     "relation": "HEADQUARTERED_IN",
+     "value": "Santa Clara, California"
+    }
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "OperatingIncome"
+   },
+   {
+    "id": "s3",
+    "op": "metric",
+    "input": "s1",
+    "metric": "Revenue"
+   },
+   {
+    "id": "s4",
+    "op": "ratio",
+    "numerator": "s2",
+    "denominator": "s3"
+   }
+  ],
+  "answer": "s4"
+ }
+}

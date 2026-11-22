@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Brian T. Moynihan\", \"page\": 305, \"quote\": \"By: /s/ Brian T. Moynihan Brian T. Moynihan Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Brian T. Moynihan",
+    "page": 305,
+    "quote": "By: /s/ Brian T. Moynihan Brian T. Moynihan Chief Executive Officer"
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Oregon\", \"page\": 1, \"quote\": \"(State or other jurisdiction of incorporation) Oregon\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Oregon",
+    "page": 1,
+    "quote": "(State or other jurisdiction of incorporation) Oregon"
+   }
+  ]
+ }
+}

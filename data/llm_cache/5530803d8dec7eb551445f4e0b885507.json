@@ -1,0 +1,54 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"steps\": [\n    {\n      \"id\": \"s1\",\n      \"op\": \"metric\",\n      \"input\": [\"JPM\", \"BAC\", \"WFC\", \"C\", \"GS\", \"MS\"],\n      \"metric\": \"NetIncome\"\n    },\n    {\n      \"id\": \"s2\",\n      \"op\": \"rank\",\n      \"input\": \"s1\",\n      \"order\": \"desc\",\n      \"k\": 1\n    },\n    {\n      \"id\": \"s3\",\n      \"op\": \"attribute\",\n      \"input\": \"s2\",\n      \"relation\": \"INCORPORATED_IN\"\n    },\n    {\n      \"id\": \"s4\",\n      \"op\": \"metric\",\n      \"input\": \"s3\",\n      \"metric\": \"TotalLiabilities\"\n    },\n    {\n      \"id\": \"s5\",\n      \"op\": \"metric\",\n      \"input\": \"s3\",\n      \"metric\": \"TotalEquity\"\n    },\n    {\n      \"id\": \"s6\",\n      \"op\": \"ratio\",\n      \"numerator\": \"s4\",\n      \"denominator\": \"s5\"\n    }\n  ],\n  \"answer\": \"s6\"\n}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "metric",
+    "input": [
+     "JPM",
+     "BAC",
+     "WFC",
+     "C",
+     "GS",
+     "MS"
+    ],
+    "metric": "NetIncome"
+   },
+   {
+    "id": "s2",
+    "op": "rank",
+    "input": "s1",
+    "order": "desc",
+    "k": 1
+   },
+   {
+    "id": "s3",
+    "op": "attribute",
+    "input": "s2",
+    "relation": "INCORPORATED_IN"
+   },
+   {
+    "id": "s4",
+    "op": "metric",
+    "input": "s3",
+    "metric": "TotalLiabilities"
+   },
+   {
+    "id": "s5",
+    "op": "metric",
+    "input": "s3",
+    "metric": "TotalEquity"
+   },
+   {
+    "id": "s6",
+    "op": "ratio",
+    "numerator": "s4",
+    "denominator": "s5"
+   }
+  ],
+  "answer": "s6"
+ }
+}

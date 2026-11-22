@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"(State or other jurisdiction of incorporation or organization) Delaware\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Chicago, Illinois\", \"page\": 1, \"quote\": \"110 North Carpenter Street, Chicago, Illinois 60607 (Address of principal executive offices)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "(State or other jurisdiction of incorporation or organization) Delaware"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Chicago, Illinois",
+    "page": 1,
+    "quote": "110 North Carpenter Street, Chicago, Illinois 60607 (Address of principal executive offices)"
+   }
+  ]
+ }
+}

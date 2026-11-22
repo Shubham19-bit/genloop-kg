@@ -1,0 +1,38 @@
+[
+ {
+  "ticker": "JPM",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "New York, New York",
+  "unit": null,
+  "period": null,
+  "doc": "JPM_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "270 Park Avenue, New York, New York 10017 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "JPM",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "JPM_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "JPM",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "James Dimon",
+  "unit": null,
+  "period": null,
+  "doc": "JPM_10K_FY2025.pdf",
+  "page": 562,
+  "evidence": "JAMES DIMON Chairman and Chief Executive Officer",
+  "method": "llm+quote_check"
+ }
+]

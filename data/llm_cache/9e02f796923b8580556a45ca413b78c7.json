@@ -1,0 +1,18 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Compute & Networking\", \"Graphics\"], \"page\": 71, \"quote\": \"Reportable Segments Revenue by Reportable Segments Year Ended $ % Jan 25, 2026 Jan 26, 2025 Change Change ($ in millions) Compute & Networking $ 193,479 $ 116,193\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Compute & Networking",
+     "Graphics"
+    ],
+    "page": 71,
+    "quote": "Reportable Segments Revenue by Reportable Segments Year Ended $ % Jan 25, 2026 Jan 26, 2025 Change Change ($ in millions) Compute & Networking $ 193,479 $ 116,193"
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Biopharma\"], \"page\": 20, \"quote\": \"Biopharma is the only reportable segment.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Biopharma"
+    ],
+    "page": 20,
+    "quote": "Biopharma is the only reportable segment."
+   }
+  ]
+ }
+}

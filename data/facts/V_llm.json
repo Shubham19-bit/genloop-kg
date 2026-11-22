@@ -1,0 +1,52 @@
+[
+ {
+  "ticker": "V",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "San Francisco, California",
+  "unit": null,
+  "period": null,
+  "doc": "V_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "P.O. Box 8999 94128-8999 San Francisco, California (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "V",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "V_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "V",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Ryan McInerney",
+  "unit": null,
+  "period": null,
+  "doc": "V_10K_FY2025.pdf",
+  "page": 199,
+  "evidence": "Name: Ryan McInerney Title: Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "V",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Payment Services"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "V_10K_FY2025.pdf",
+  "page": 148,
+  "evidence": "The Company has one reportable segment, Payment Services.",
+  "method": "llm+quote_check"
+ }
+]

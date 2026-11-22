@@ -1,0 +1,22 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Services\", \"Markets\", \"Banking\", \"Wealth\", \"USPB\", \"All Other\"], \"page\": 232, \"quote\": \"Citi is organized into five reportable business segments: Services, Markets, Banking, Wealth and U.S. Personal Banking (USPB), with the remaining operations recorded in All Other\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Services",
+     "Markets",
+     "Banking",
+     "Wealth",
+     "USPB",
+     "All Other"
+    ],
+    "page": 232,
+    "quote": "Citi is organized into five reportable business segments: Services, Markets, Banking, Wealth and U.S. Personal Banking (USPB), with the remaining operations recorded in All Other"
+   }
+  ]
+ }
+}

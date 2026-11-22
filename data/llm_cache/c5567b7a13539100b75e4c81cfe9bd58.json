@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Mark Zuckerberg\", \"page\": 223, \"quote\": \"/s/ Mark Zuckerberg Chairman and Chief Executive Officer January 28, 2026\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Mark Zuckerberg",
+    "page": 223,
+    "quote": "/s/ Mark Zuckerberg Chairman and Chief Executive Officer January 28, 2026"
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+[
+ {
+  "ticker": "META",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "META_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Delaware (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "META",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Menlo Park, California",
+  "unit": null,
+  "period": null,
+  "doc": "META_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "1 Meta Way, Menlo Park, California 94025 (Address of principal executive offices and Zip Code)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "META",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Mark Zuckerberg",
+  "unit": null,
+  "period": null,
+  "doc": "META_10K_FY2025.pdf",
+  "page": 223,
+  "evidence": "/s/ Mark Zuckerberg Chairman and Chief Executive Officer January 28, 2026",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "META",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Family of Apps",
+   "Reality Labs"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "META_10K_FY2025.pdf",
+  "page": 210,
+  "evidence": "We report our financial results for our two reportable segments: Family of Apps (FoA) and Reality Labs (RL).",
+  "method": "llm+quote_check"
+ }
+]

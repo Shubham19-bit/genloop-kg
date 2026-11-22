@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"United States\", \"International Operated Markets\", \"International Developmental Licensed Markets & Corporate\"], \"page\": 4, \"quote\": \"Significant reportable segments include the United States (\\\"U.S.\\\") and International Operated Markets. In addition, the International Developmental Licensed Markets & Corporate includes the results of over 75 countries as well as Corporate activities.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "United States",
+     "International Operated Markets",
+     "International Developmental Licensed Markets & Corporate"
+    ],
+    "page": 4,
+    "quote": "Significant reportable segments include the United States (\"U.S.\") and International Operated Markets. In addition, the International Developmental Licensed Markets & Corporate includes the results of over 75 countries as well as Corporate activities."
+   }
+  ]
+ }
+}

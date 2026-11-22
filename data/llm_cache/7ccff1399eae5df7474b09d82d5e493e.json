@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Google Services\", \"Google Cloud\", \"Other Bets\"], \"page\": 66, \"quote\": \"We report our segment results as Google Services, Google Cloud, and Other Bets.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Google Services",
+     "Google Cloud",
+     "Other Bets"
+    ],
+    "page": 66,
+    "quote": "We report our segment results as Google Services, Google Cloud, and Other Bets."
+   }
+  ]
+ }
+}

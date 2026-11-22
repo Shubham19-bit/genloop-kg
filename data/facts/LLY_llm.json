@@ -1,0 +1,52 @@
+[
+ {
+  "ticker": "LLY",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Indianapolis, Indiana",
+  "unit": null,
+  "period": null,
+  "doc": "LLY_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Lilly Corporate Center, Indianapolis, Indiana 46285 (Address and zip code of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "LLY",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Indiana",
+  "unit": null,
+  "period": null,
+  "doc": "LLY_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Indiana",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "LLY",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "David Ricks",
+  "unit": null,
+  "period": null,
+  "doc": "LLY_10K_FY2025.pdf",
+  "page": 145,
+  "evidence": "By /s/ David Ricks David Ricks Chair, President, and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "LLY",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Single Reportable Segment"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "LLY_10K_FY2025.pdf",
+  "page": 132,
+  "evidence": "The following table summarizes information for our single reportable segment",
+  "method": "llm+quote_check"
+ }
+]

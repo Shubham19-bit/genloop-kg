@@ -1,0 +1,56 @@
+[
+ {
+  "ticker": "BAC",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "BAC_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "State or other jurisdiction of incorporation or organization: Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "BAC",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Charlotte, North Carolina",
+  "unit": null,
+  "period": null,
+  "doc": "BAC_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Address of principal executive offices: Bank of America Corporate Center 100 N. Tryon Street Charlotte, North Carolina 28255",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "BAC",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Brian T. Moynihan",
+  "unit": null,
+  "period": null,
+  "doc": "BAC_10K_FY2025.pdf",
+  "page": 305,
+  "evidence": "By: /s/ Brian T. Moynihan Brian T. Moynihan Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "BAC",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Consumer Banking",
+   "GWIM",
+   "Global Banking",
+   "Global Markets",
+   "All Other"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "BAC_10K_FY2025.pdf",
+  "page": 70,
+  "evidence": "We report our results of operations through the following four business segments: Consumer Banking, GWIM, Global Banking and Global Markets, with the remaining operations recorded in All Other.",
+  "method": "llm+quote_check"
+ }
+]

@@ -1,0 +1,23 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"steps\":[{\"id\":\"s1\",\"op\":\"companies\",\"tickers\":[\"COST\"]},{\"id\":\"s2\",\"op\":\"metric\",\"input\":\"s1\",\"metric\":\"Employees\"}],\"answer\":\"s2\"}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "tickers": [
+     "COST"
+    ]
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "Employees"
+   }
+  ],
+  "answer": "s2"
+ }
+}

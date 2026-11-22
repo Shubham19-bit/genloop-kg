@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Stephen J. Squeri\", \"page\": 231, \"quote\": \"/s/ STEPHEN J. SQUERI Stephen J. Squeri Chairman, Chief Executive Officer and Director\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Stephen J. Squeri",
+    "page": 231,
+    "quote": "/s/ STEPHEN J. SQUERI Stephen J. Squeri Chairman, Chief Executive Officer and Director"
+   }
+  ]
+ }
+}

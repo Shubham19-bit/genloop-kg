@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Walmart U.S.\", \"Walmart International\", \"Sam's Club U.S.\"], \"page\": 121, \"quote\": \"The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Walmart U.S.",
+     "Walmart International",
+     "Sam's Club U.S."
+    ],
+    "page": 121,
+    "quote": "The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S."
+   }
+  ]
+ }
+}

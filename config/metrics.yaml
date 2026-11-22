@@ -1,0 +1,162 @@
+# Metric ontology: one canonical metric node, many surface labels.
+# `labels` are regexes matched with fullmatch() against the NORMALISED row label
+#   (lowercase, curly quotes -> ', footnote markers and "(note x)" removed, spaces collapsed).
+# `exclude` regexes veto a match. `statement` limits which pages are searched.
+# `xbrl` lists us-gaap tags used ONLY by scripts/verify_gold.py to cross-check golden answers.
+
+metrics:
+  Revenue:
+    statement: income
+    unit: USD
+    # ORDER MATTERS: totals first, so "Total revenues" (713,163) beats "Net sales" (706,413).
+    labels:
+      - "total net sales"
+      - "total revenues?"
+      - "total net revenues?"
+      - "total revenues?,? net of interest expense"
+      - "total net revenues?,? net of interest expense"
+      - "net revenues?,? net of interest expense"
+      - "net operating revenues"
+      - "net revenues?"
+      - "revenues?"
+      - "net sales"
+      - "sales to customers"          # J&J
+      - "sales"                       # Merck
+    xbrl: [Revenues, RevenueFromContractWithCustomerExcludingAssessedTax, SalesRevenueNet, RevenuesNetOfInterestExpense]
+
+  OperatingIncome:
+    statement: income
+    unit: USD
+    labels:
+      - "operating income"
+      - "income from operations"
+      - "operating profit"
+      - "total operating income"
+      - "operating earnings"                 # AbbVie
+      - "(consolidated )?earnings from operations"   # UnitedHealth
+    xbrl: [OperatingIncomeLoss]
+
+  NetIncome:
+    statement: income
+    unit: USD
+    labels:
+      # attributable-to-the-company first (matches XBRL NetIncomeLoss); NCI lines are excluded below
+      - "net (income|earnings) attributable to .+"
+      - "consolidated net (income|earnings) attributable to .+"
+      - "net income"
+      - "net earnings"
+      - "[a-z&.]+'s net (income|earnings)"          # Citi: "Citigroup's net income"
+      - "[a-z&.]+( [a-z&.]+)? net (income|earnings)"  # Wells Fargo: "Wells Fargo net income"
+    exclude:
+      - ".*noncontrolling.*"
+      - ".*non-controlling.*"
+      - ".*per share.*"
+      - ".*common stockholders.*available.*"
+      - ".*applicable to common.*"
+      - "(comprehensive|basic|diluted|adjusted) net .*"
+    xbrl: [NetIncomeLoss]
+
+  DilutedEPS:
+    statement: income
+    unit: USD_per_share
+    per_share: true
+    labels:
+      - "diluted earnings per share"
+      - "diluted net income per share"
+      - "diluted earnings per common share"
+      - "diluted net earnings per share"
+      - "diluted earnings"            # Bank of America
+      - "earnings per common share assuming dilution( attributable to .+)?"   # Merck
+      - "earnings per common share - diluted"   # McDonald's
+      - "total net earnings per share - diluted" # J&J
+      - "diluted (net )?(income|earnings)( \\(loss\\))? per (common )?share( attributable to .+)?"
+      - "earnings per share,? diluted"
+      - "net income per share,? diluted"
+      - "diluted"                     # bare 'Diluted' under an EPS heading; last, so specific labels win
+    xbrl: [EarningsPerShareDiluted]
+
+  ResearchAndDevelopment:
+    statement: income
+    unit: USD
+    labels:
+      - "research and development"
+      - "research and development expenses?"
+      - "research,? development and related expenses"
+      - "technology and development"
+    xbrl: [ResearchAndDevelopmentExpense]
+
+  TotalAssets:
+    statement: balance
+    unit: USD
+    labels: ["total assets"]
+    xbrl: [Assets]
+
+  TotalLiabilities:
+    statement: balance
+    unit: USD
+    labels: ["total liabilities"]
+    xbrl: [Liabilities]
+
+  TotalEquity:
+    statement: balance
+    unit: USD
+    prefer: last      # row appears twice (company's equity, then total incl. NCI)
+    labels:
+      - "total (stockholders|shareholders|shareowners)'? ?(equity|deficit|investment)"
+      - "total equity"
+      - "total .+ (stockholders|shareholders|shareowners)'? (equity|deficit)"
+    exclude: [".*liabilities.*"]
+    xbrl: [StockholdersEquity]
+
+  CashAndEquivalents:
+    statement: balance
+    unit: USD
+    labels:
+      - "cash and cash equivalents"
+      - "cash and equivalents"
+      - "cash and due from banks"
+    xbrl: [CashAndCashEquivalentsAtCarryingValue]
+
+  LongTermDebt:
+    statement: balance
+    unit: USD
+    prefer: last      # row appears twice (current, then non-current)
+    labels:
+      - "long-term debt"
+      - "long-term debt,? net"
+      - "long-term debt,? (net of|excluding|less) current (portion|maturities|installments)"
+      - "long-term debt,? noncurrent"
+      - "long-term debt and other borrowings"          # Target
+      - "long-term debt obligations"                   # PepsiCo
+      - "long-term debt and finance lease obligations" # AbbVie
+      - "long-term borrowings"
+      - "unsecured long-term borrowings"               # Goldman Sachs
+      - "notes payable and other borrowings,? non-?current"   # Oracle
+      - "(noncurrent|non-current) debt"                # Salesforce
+      - "debt,? (noncurrent|non-current)"
+      - "long-term obligations"                        # Thermo Fisher
+      - "term debt"
+      - "debt"                                         # Adobe (current row first, then non-current)
+    xbrl: [LongTermDebtNoncurrent, LongTermDebt]
+
+  OperatingCashFlow:
+    statement: cashflow
+    unit: USD
+    labels:
+      # one pattern for the many wordings: '(net) cash (flows) <provided by|from|used for|...> <operating activities|operations>'
+      - "(net )?cash (flows )?(provided by|provided|from|generated by|generated from|used for|used in|provided by \\(used in\\)|\\(used in\\) ?/ ?provided by|provided by ?/ ?\\(used in\\)|provided \\(used\\) by|(provided by|from) \\(used (in|for)\\)) (operating activities|operations)( of continuing operations)?"
+    xbrl: [NetCashProvidedByUsedInOperatingActivities]
+
+  Employees:
+    statement: text      # found by regex in Item 1 text, not in a table
+    unit: count
+    xbrl: []
+
+# Derived metrics are computed at query time from two stored facts and keep
+# DERIVED_FROM links to both, so a ratio is as traceable as a raw number.
+derived:
+  OperatingMargin: {numerator: OperatingIncome, denominator: Revenue}
+  NetMargin:       {numerator: NetIncome,       denominator: Revenue}
+  RDIntensity:     {numerator: ResearchAndDevelopment, denominator: Revenue}
+  DebtToEquity:    {numerator: TotalLiabilities, denominator: TotalEquity}
+  ReturnOnAssets:  {numerator: NetIncome,       denominator: TotalAssets}

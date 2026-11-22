@@ -1,0 +1,53 @@
+[
+ {
+  "ticker": "JNJ",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "New Brunswick, New Jersey",
+  "unit": null,
+  "period": null,
+  "doc": "JNJ_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "One Johnson & Johnson Plaza\nNew Brunswick, New Jersey 08933\n(Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "JNJ",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "New Jersey",
+  "unit": null,
+  "period": null,
+  "doc": "JNJ_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Johnson & Johnson\n(Exact name of registrant as specified in its charter)\nNew Jersey 22-1024240\n(State of incorporation) (I.R.S. Employer Identification No.)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "JNJ",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "J. Duato",
+  "unit": null,
+  "period": null,
+  "doc": "JNJ_10K_FY2025.pdf",
+  "page": 126,
+  "evidence": "/s/ J. Duato\nJ. Duato, Chairman of the Board\nand Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "JNJ",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Innovative Medicine",
+   "MedTech"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "JNJ_10K_FY2025.pdf",
+  "page": 30,
+  "evidence": "The Company is organized into two business segments: Innovative Medicine and MedTech.",
+  "method": "llm+quote_check"
+ }
+]

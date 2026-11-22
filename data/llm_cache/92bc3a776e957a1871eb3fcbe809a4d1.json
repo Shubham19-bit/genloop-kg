@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"(State of incorporation) Delaware\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Waltham, Massachusetts\", \"page\": 1, \"quote\": \"168 Third Avenue Waltham, Massachusetts 02451 (Address of principal executive offices)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "(State of incorporation) Delaware"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Waltham, Massachusetts",
+    "page": 1,
+    "quote": "168 Third Avenue Waltham, Massachusetts 02451 (Address of principal executive offices)"
+   }
+  ]
+ }
+}

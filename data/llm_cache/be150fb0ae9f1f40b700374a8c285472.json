@@ -1,0 +1,43 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"steps\": [\n    {\n      \"id\": \"s1\",\n      \"op\": \"companies\",\n      \"tickers\": [\"MRK\", \"PFE\"]\n    },\n    {\n      \"id\": \"s2\",\n      \"op\": \"metric\",\n      \"input\": \"s1\",\n      \"metric\": \"Revenue\"\n    },\n    {\n      \"id\": \"s3\",\n      \"op\": \"metric\",\n      \"input\": \"s1\",\n      \"metric\": \"ResearchAndDevelopment\"\n    },\n    {\n      \"id\": \"s4\",\n      \"op\": \"ratio\",\n      \"input\": \"s2\",\n      \"metric\": \"RDIntensity\"\n    },\n    {\n      \"id\": \"s5\",\n      \"op\": \"rank\",\n      \"input\": \"s4\",\n      \"order\": \"desc\",\n      \"k\": 1\n    }\n  ],\n  \"answer\": \"s5\"\n}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "tickers": [
+     "MRK",
+     "PFE"
+    ]
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "Revenue"
+   },
+   {
+    "id": "s3",
+    "op": "metric",
+    "input": "s1",
+    "metric": "ResearchAndDevelopment"
+   },
+   {
+    "id": "s4",
+    "op": "ratio",
+    "input": "s2",
+    "metric": "RDIntensity"
+   },
+   {
+    "id": "s5",
+    "op": "rank",
+    "input": "s4",
+    "order": "desc",
+    "k": 1
+   }
+  ],
+  "answer": "s5"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"steps\": [\n    {\n      \"id\": \"s1\",\n      \"op\": \"metric\",\n      \"input\": [\"NVDA\"],\n      \"metric\": \"DilutedEPS\"\n    }\n  ],\n  \"answer\": \"s1\"\n}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "metric",
+    "input": [
+     "NVDA"
+    ],
+    "metric": "DilutedEPS"
+   }
+  ],
+  "answer": "s1"
+ }
+}

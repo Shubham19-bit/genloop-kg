@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Robert A. Michael\", \"page\": 184, \"quote\": \"Name: Robert A. Michael Title: Chairman of the Board and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Robert A. Michael",
+    "page": 184,
+    "quote": "Name: Robert A. Michael Title: Chairman of the Board and Chief Executive Officer"
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+[
+ {
+  "ticker": "PEP",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "North Carolina",
+  "unit": null,
+  "period": null,
+  "doc": "PEP_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "North Carolina 13-1584302 (State or Other Jurisdiction of Incorporation or Organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "PEP",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Purchase, New York",
+  "unit": null,
+  "period": null,
+  "doc": "PEP_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "700 Anderson Hill Road, Purchase, New York 10577 (Address of principal executive offices and Zip Code)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "PEP",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Ramon L. Laguarta",
+  "unit": null,
+  "period": null,
+  "doc": "PEP_10K_FY2025.pdf",
+  "page": 229,
+  "evidence": "/s/ Ramon L. Laguarta Chairman of the Board of Directors February 2, 2026 Ramon L. Laguarta and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "PEP",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "PepsiCo Foods North America",
+   "PepsiCo Beverages North America",
+   "International Beverages Franchise",
+   "Europe, Middle East and Africa",
+   "Latin America Foods",
+   "Asia Pacific Foods"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "PEP_10K_FY2025.pdf",
+  "page": 121,
+  "evidence": "We are organized into six reportable segments, as follows: 1) PepsiCo Foods North America (PFNA)... 2) PepsiCo Beverages North America (PBNA)... 3) International Beverages Franchise (IB Franchise)... 4) Europe, Middle East and Africa (EMEA)... 5) Latin America Foods (LatAm Foods)... 6) Asia Pacific Foods",
+  "method": "llm+quote_check"
+ }
+]

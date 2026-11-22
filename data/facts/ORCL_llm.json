@@ -1,0 +1,52 @@
+[
+ {
+  "ticker": "ORCL",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Austin, Texas",
+  "unit": null,
+  "period": null,
+  "doc": "ORCL_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "2300 Oracle Way Austin, Texas 78741 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ORCL",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "ORCL_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Delaware (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ORCL",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Safra A. Catz",
+  "unit": null,
+  "period": null,
+  "doc": "ORCL_10K_FY2025.pdf",
+  "page": 198,
+  "evidence": "Safra A. Catz Chief Executive Officer and Director",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ORCL",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Cloud Services"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "ORCL_10K_FY2025.pdf",
+  "page": 123,
+  "evidence": "Oracle Cloud Applications and Oracle Cloud Infrastructure (collectively, Oracle Cloud Services) offerings provide comprehensive and integrated applications and infrastructure services enabling our customers to choose the best option that meets their specific business needs.",
+  "method": "llm+quote_check"
+ }
+]

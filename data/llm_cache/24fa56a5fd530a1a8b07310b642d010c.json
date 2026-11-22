@@ -1,0 +1,17 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Payment Solutions\"], \"page\": 165, \"quote\": \"Mastercard has concluded it has one reportable operating segment, \u201cPayment Solutions.\u201d\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Payment Solutions"
+    ],
+    "page": 165,
+    "quote": "Mastercard has concluded it has one reportable operating segment, \u201cPayment Solutions.\u201d"
+   }
+  ]
+ }
+}

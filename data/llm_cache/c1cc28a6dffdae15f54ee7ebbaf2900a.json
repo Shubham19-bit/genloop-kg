@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"UnitedHealth Group Incorporated (Exact name of registrant as specified in its charter) Delaware 41-1321939 (State or other jurisdiction of incorporation or organization)\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Eden Prairie, Minnesota\", \"page\": 1, \"quote\": \"1 Health Drive 655 New York Avenue NW Eden Prairie, Minnesota 55344 Washington, DC 20001 (Address of principal executive offices)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "UnitedHealth Group Incorporated (Exact name of registrant as specified in its charter) Delaware 41-1321939 (State or other jurisdiction of incorporation or organization)"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Eden Prairie, Minnesota",
+    "page": 1,
+    "quote": "1 Health Drive 655 New York Avenue NW Eden Prairie, Minnesota 55344 Washington, DC 20001 (Address of principal executive offices)"
+   }
+  ]
+ }
+}

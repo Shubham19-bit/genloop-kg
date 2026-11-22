@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Ron M. Vachris\", \"page\": 107, \"quote\": \"Ron M. Vachris Chief Executive Officer, President and Director\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Ron M. Vachris",
+    "page": 107,
+    "quote": "Ron M. Vachris Chief Executive Officer, President and Director"
+   }
+  ]
+ }
+}

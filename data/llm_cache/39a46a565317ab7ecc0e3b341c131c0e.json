@@ -1,0 +1,17 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"human therapeutics\"], \"page\": 180, \"quote\": \"We operate our business in one operating segment, which also represents one reportable segment: human therapeutics.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "human therapeutics"
+    ],
+    "page": 180,
+    "quote": "We operate our business in one operating segment, which also represents one reportable segment: human therapeutics."
+   }
+  ]
+ }
+}

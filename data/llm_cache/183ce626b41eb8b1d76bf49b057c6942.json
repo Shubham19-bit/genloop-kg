@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Jen-Hsun Huang\", \"page\": 132, \"quote\": \"By: /s/ Jen-Hsun Huang\\nJen-Hsun Huang\\nPresident and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Jen-Hsun Huang",
+    "page": 132,
+    "quote": "By: /s/ Jen-Hsun Huang\nJen-Hsun Huang\nPresident and Chief Executive Officer"
+   }
+  ]
+ }
+}

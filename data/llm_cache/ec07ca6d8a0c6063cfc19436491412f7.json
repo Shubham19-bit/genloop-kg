@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Rahway, New Jersey\", \"page\": 1, \"quote\": \"Merck & Co., Inc.\\n126 East Lincoln Avenue\\nRahway New Jersey 07065\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"New Jersey\", \"page\": 1, \"quote\": \"(State or other jurisdiction of incorporation) (I.R.S. Employer Identification No.)\\nNew Jersey 22-1918501\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Rahway, New Jersey",
+    "page": 1,
+    "quote": "Merck & Co., Inc.\n126 East Lincoln Avenue\nRahway New Jersey 07065"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "New Jersey",
+    "page": 1,
+    "quote": "(State or other jurisdiction of incorporation) (I.R.S. Employer Identification No.)\nNew Jersey 22-1918501"
+   }
+  ]
+ }
+}

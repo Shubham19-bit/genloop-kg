@@ -1,0 +1,38 @@
+[
+ {
+  "ticker": "ABBV",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "North Chicago, Illinois",
+  "unit": null,
+  "period": null,
+  "doc": "ABBV_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "1 North Waukegan Road\nNorth Chicago, Illinois 60064-6400\n(Address, including zip code, and telephone number of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ABBV",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "ABBV_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(Exact name of registrant as specified in its charter)\nDelaware 32-0375147\n(State or other jurisdiction of (I.R.S. employer\nincorporation or organization) identification number)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ABBV",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Robert A. Michael",
+  "unit": null,
+  "period": null,
+  "doc": "ABBV_10K_FY2025.pdf",
+  "page": 184,
+  "evidence": "Name: Robert A. Michael Title: Chairman of the Board and Chief Executive Officer",
+  "method": "llm+quote_check"
+ }
+]

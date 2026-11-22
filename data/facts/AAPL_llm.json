@@ -1,0 +1,56 @@
+[
+ {
+  "ticker": "AAPL",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Cupertino, California",
+  "unit": null,
+  "period": null,
+  "doc": "AAPL_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "One Apple Park Way Cupertino, California 95014 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AAPL",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "California",
+  "unit": null,
+  "period": null,
+  "doc": "AAPL_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "California 94-2404110 (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AAPL",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Timothy D. Cook",
+  "unit": null,
+  "period": null,
+  "doc": "AAPL_10K_FY2025.pdf",
+  "page": 84,
+  "evidence": "/s/ Timothy D. Cook (Principal Executive Officer) TIMOTHY D. COOK",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AAPL",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Americas",
+   "Europe",
+   "Greater China",
+   "Japan",
+   "Rest of Asia Pacific"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "AAPL_10K_FY2025.pdf",
+  "page": 70,
+  "evidence": "The Company\u2019s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific.",
+  "method": "llm+quote_check"
+ }
+]

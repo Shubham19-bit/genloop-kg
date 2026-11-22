@@ -1,0 +1,20 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Life Sciences Solutions\", \"Analytical Instruments\", \"Specialty Diagnostics\", \"Laboratory Products and Biopharma Services\"], \"page\": 4, \"quote\": \"We report our business in four segments: Life Sciences Solutions, Analytical Instruments, Specialty Diagnostics, and Laboratory Products and Biopharma Services.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Life Sciences Solutions",
+     "Analytical Instruments",
+     "Specialty Diagnostics",
+     "Laboratory Products and Biopharma Services"
+    ],
+    "page": 4,
+    "quote": "We report our business in four segments: Life Sciences Solutions, Analytical Instruments, Specialty Diagnostics, and Laboratory Products and Biopharma Services."
+   }
+  ]
+ }
+}

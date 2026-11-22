@@ -1,0 +1,17 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Retail Home Improvement\"], \"page\": 117, \"quote\": \"The Company's operations include one reportable operating segment, Retail Home Improvement\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Retail Home Improvement"
+    ],
+    "page": 117,
+    "quote": "The Company's operations include one reportable operating segment, Retail Home Improvement"
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+[
+ {
+  "ticker": "TMO",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "TMO_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State of incorporation) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "TMO",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Waltham, Massachusetts",
+  "unit": null,
+  "period": null,
+  "doc": "TMO_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "168 Third Avenue Waltham, Massachusetts 02451 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "TMO",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Marc N. Casper",
+  "unit": null,
+  "period": null,
+  "doc": "TMO_10K_FY2025.pdf",
+  "page": 144,
+  "evidence": "Marc N. Casper Chairman, President and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "TMO",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Life Sciences Solutions",
+   "Analytical Instruments",
+   "Specialty Diagnostics",
+   "Laboratory Products and Biopharma Services"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "TMO_10K_FY2025.pdf",
+  "page": 4,
+  "evidence": "We report our business in four segments: Life Sciences Solutions, Analytical Instruments, Specialty Diagnostics, and Laboratory Products and Biopharma Services.",
+  "method": "llm+quote_check"
+ }
+]

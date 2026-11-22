@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Ryan McInerney\", \"page\": 199, \"quote\": \"Name: Ryan McInerney Title: Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Ryan McInerney",
+    "page": 199,
+    "quote": "Name: Ryan McInerney Title: Chief Executive Officer"
+   }
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"North America\", \"International\", \"AWS\"], \"page\": 105, \"quote\": \"We have organized our operations into three segments: North America, International, and AWS.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "North America",
+     "International",
+     "AWS"
+    ],
+    "page": 105,
+    "quote": "We have organized our operations into three segments: North America, International, and AWS."
+   }
+  ]
+ }
+}

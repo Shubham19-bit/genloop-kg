@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Elliott Hill\", \"page\": 145, \"quote\": \"By: /s/ ELLIOTT HILL\\nElliott Hill\\nPresident and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Elliott Hill",
+    "page": 145,
+    "quote": "By: /s/ ELLIOTT HILL\nElliott Hill\nPresident and Chief Executive Officer"
+   }
+  ]
+ }
+}

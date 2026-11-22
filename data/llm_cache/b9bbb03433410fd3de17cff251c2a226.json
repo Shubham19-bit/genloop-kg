@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Charles W. Scharf\", \"page\": 36, \"quote\": \"By: /s/ CHARLES W. SCHARF Charles W. Scharf Chairman and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Charles W. Scharf",
+    "page": 36,
+    "quote": "By: /s/ CHARLES W. SCHARF Charles W. Scharf Chairman and Chief Executive Officer"
+   }
+  ]
+ }
+}

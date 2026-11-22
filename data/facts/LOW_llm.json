@@ -1,0 +1,52 @@
+[
+ {
+  "ticker": "LOW",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "North Carolina",
+  "unit": null,
+  "period": null,
+  "doc": "LOW_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "North Carolina (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "LOW",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Mooresville, NC",
+  "unit": null,
+  "period": null,
+  "doc": "LOW_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "1000 Lowes Blvd., Mooresville, NC 28117 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "LOW",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Marvin R. Ellison",
+  "unit": null,
+  "period": null,
+  "doc": "LOW_10K_FY2025.pdf",
+  "page": 146,
+  "evidence": "March 23, 2026 By: /s/ Marvin R. Ellison Date Marvin R. Ellison Chairman, President and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "LOW",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Retail Home Improvement"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "LOW_10K_FY2025.pdf",
+  "page": 117,
+  "evidence": "The Company's operations include one reportable operating segment, Retail Home Improvement",
+  "method": "llm+quote_check"
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Optum Health\", \"Optum Insight\", \"Optum Rx\", \"UnitedHealthcare\"], \"page\": 48, \"quote\": \"We have four reportable segments across our two businesses: Optum Health; Optum Insight; Optum Rx; and UnitedHealthcare\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Optum Health",
+     "Optum Insight",
+     "Optum Rx",
+     "UnitedHealthcare"
+    ],
+    "page": 48,
+    "quote": "We have four reportable segments across our two businesses: Optum Health; Optum Insight; Optum Rx; and UnitedHealthcare"
+   }
+  ]
+ }
+}

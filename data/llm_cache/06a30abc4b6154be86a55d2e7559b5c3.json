@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Atlanta, Georgia\", \"page\": 1, \"quote\": \"One Coca-Cola Plaza Atlanta, Georgia 30313 (Address of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"(State or other jurisdiction of incorporation) Delaware\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Atlanta, Georgia",
+    "page": 1,
+    "quote": "One Coca-Cola Plaza Atlanta, Georgia 30313 (Address of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "(State or other jurisdiction of incorporation) Delaware"
+   }
+  ]
+ }
+}

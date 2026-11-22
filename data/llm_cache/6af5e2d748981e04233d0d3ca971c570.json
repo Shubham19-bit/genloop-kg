@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Safra A. Catz\", \"page\": 198, \"quote\": \"Safra A. Catz Chief Executive Officer and Director\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Safra A. Catz",
+    "page": 198,
+    "quote": "Safra A. Catz Chief Executive Officer and Director"
+   }
+  ]
+ }
+}

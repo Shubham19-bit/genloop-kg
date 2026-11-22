@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Institutional Securities\", \"Wealth Management\", \"Investment Management\"], \"page\": 8, \"quote\": \"Our business segments: Institutional Securities, Wealth Management and Investment Management.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Institutional Securities",
+     "Wealth Management",
+     "Investment Management"
+    ],
+    "page": 8,
+    "quote": "Our business segments: Institutional Securities, Wealth Management and Investment Management."
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "MSFT",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Washington",
+  "unit": null,
+  "period": null,
+  "doc": "MSFT_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(STATE OF INCORPORATION) (I.R.S. ID)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MSFT",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Redmond, Washington",
+  "unit": null,
+  "period": null,
+  "doc": "MSFT_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "ONE MICROSOFT WAY, REDMOND, WASHINGTON 98052-6399",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MSFT",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Satya Nadella",
+  "unit": null,
+  "period": null,
+  "doc": "MSFT_10K_FY2025.pdf",
+  "page": 150,
+  "evidence": "/s/ SATYA NADELLA Chairman and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MSFT",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Productivity and Business Processes",
+   "Intelligent Cloud",
+   "More Personal Computing"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "MSFT_10K_FY2025.pdf",
+  "page": 58,
+  "evidence": "We report our financial performance based on the following segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.",
+  "method": "llm+quote_check"
+ }
+]

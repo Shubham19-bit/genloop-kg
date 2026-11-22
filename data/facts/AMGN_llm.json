@@ -1,0 +1,52 @@
+[
+ {
+  "ticker": "AMGN",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Thousand Oaks, California",
+  "unit": null,
+  "period": null,
+  "doc": "AMGN_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "One Amgen Center Drive Thousand Oaks California 91320-1799 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AMGN",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "AMGN_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AMGN",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Robert A. Bradway",
+  "unit": null,
+  "period": null,
+  "doc": "AMGN_10K_FY2025.pdf",
+  "page": 161,
+  "evidence": "/S/ ROBERT A. BRADWAY Chairman of the Board, Chief Executive Officer Robert A. Bradway and President, and Director (Principal Executive Officer)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AMGN",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "human therapeutics"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "AMGN_10K_FY2025.pdf",
+  "page": 180,
+  "evidence": "We operate our business in one operating segment, which also represents one reportable segment: human therapeutics.",
+  "method": "llm+quote_check"
+ }
+]

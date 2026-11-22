@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Cupertino, California\", \"page\": 1, \"quote\": \"One Apple Park Way Cupertino, California 95014 (Address of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"California\", \"page\": 1, \"quote\": \"California 94-2404110 (State or other jurisdiction of incorporation or organization)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Cupertino, California",
+    "page": 1,
+    "quote": "One Apple Park Way Cupertino, California 95014 (Address of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "California",
+    "page": 1,
+    "quote": "California 94-2404110 (State or other jurisdiction of incorporation or organization)"
+   }
+  ]
+ }
+}

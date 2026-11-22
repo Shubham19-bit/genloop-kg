@@ -1,0 +1,30 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"steps\": [\n    {\n      \"id\": \"s1\",\n      \"op\": \"companies\",\n      \"where\": {\n        \"relation\": \"HEADQUARTERED_IN\",\n        \"value\": \"New York\"\n      }\n    },\n    {\n      \"id\": \"s2\",\n      \"op\": \"metric\",\n      \"input\": \"s1\",\n      \"metric\": \"Revenue\"\n    },\n    {\n      \"id\": \"s3\",\n      \"op\": \"aggregate\",\n      \"input\": \"s2\",\n      \"fn\": \"sum\"\n    }\n  ],\n  \"answer\": \"s3\"\n}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "where": {
+     "relation": "HEADQUARTERED_IN",
+     "value": "New York"
+    }
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "Revenue"
+   },
+   {
+    "id": "s3",
+    "op": "aggregate",
+    "input": "s2",
+    "fn": "sum"
+   }
+  ],
+  "answer": "s3"
+ }
+}

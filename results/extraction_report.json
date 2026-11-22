@@ -1,0 +1,28 @@
+{
+ "AAPL": {
+  "n_facts": 9,
+  "missing": [
+   "CashAndEquivalents",
+   "LongTermDebt",
+   "OperatingCashFlow",
+   "ResearchAndDevelopment"
+  ],
+  "balance_check": {
+   "assets_minus_liab_equity": 0.0,
+   "relative_gap": 0.0
+  }
+ },
+ "MSFT": {
+  "n_facts": 9,
+  "missing": [
+   "CashAndEquivalents",
+   "LongTermDebt",
+   "OperatingCashFlow",
+   "ResearchAndDevelopment"
+  ],
+  "balance_check": {
+   "assets_minus_liab_equity": 0.0,
+   "relative_gap": 0.0
+  }
+ }
+}

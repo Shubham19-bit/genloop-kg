@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"EMEA\", \"Latin America\", \"North America\", \"Asia Pacific\", \"Bottling Investments\"], \"page\": 7, \"quote\": \"The Company's operating structure is the basis for our internal financial reporting. Our operating structure includes the following operating segments: \u2022 EMEA \u2022 Latin America \u2022 North America \u2022 Asia Pacific \u2022 Bottling Investments\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "EMEA",
+     "Latin America",
+     "North America",
+     "Asia Pacific",
+     "Bottling Investments"
+    ],
+    "page": 7,
+    "quote": "The Company's operating structure is the basis for our internal financial reporting. Our operating structure includes the following operating segments: \u2022 EMEA \u2022 Latin America \u2022 North America \u2022 Asia Pacific \u2022 Bottling Investments"
+   }
+  ]
+ }
+}

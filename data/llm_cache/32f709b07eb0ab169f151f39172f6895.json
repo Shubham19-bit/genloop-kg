@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Robert A. Bradway\", \"page\": 161, \"quote\": \"/S/ ROBERT A. BRADWAY Chairman of the Board, Chief Executive Officer Robert A. Bradway and President, and Director (Principal Executive Officer)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Robert A. Bradway",
+    "page": 161,
+    "quote": "/S/ ROBERT A. BRADWAY Chairman of the Board, Chief Executive Officer Robert A. Bradway and President, and Director (Principal Executive Officer)"
+   }
+  ]
+ }
+}

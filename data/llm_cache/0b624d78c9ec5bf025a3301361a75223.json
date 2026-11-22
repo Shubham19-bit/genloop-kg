@@ -1,0 +1,31 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"steps\":[{\"id\":\"s1\",\"op\":\"companies\",\"tickers\":[\"AAPL\",\"MSFT\",\"GOOGL\"]},{\"id\":\"s2\",\"op\":\"metric\",\"input\":\"s1\",\"metric\":\"NetIncome\"},{\"id\":\"s3\",\"op\":\"aggregate\",\"input\":\"s2\",\"fn\":\"sum\"}],\"answer\":\"s3\"}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "tickers": [
+     "AAPL",
+     "MSFT",
+     "GOOGL"
+    ]
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "NetIncome"
+   },
+   {
+    "id": "s3",
+    "op": "aggregate",
+    "input": "s2",
+    "fn": "sum"
+   }
+  ],
+  "answer": "s3"
+ }
+}

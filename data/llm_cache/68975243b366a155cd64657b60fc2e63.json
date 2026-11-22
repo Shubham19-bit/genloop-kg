@@ -1,0 +1,28 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"steps\":[{\"id\":\"s1\",\"op\":\"companies\",\"sector\":\"Technology\"},{\"id\":\"s2\",\"op\":\"metric\",\"input\":\"s1\",\"metric\":\"TotalAssets\"},{\"id\":\"s3\",\"op\":\"rank\",\"input\":\"s2\",\"order\":\"asc\",\"k\":1}],\"answer\":\"s3\"}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "sector": "Technology"
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "TotalAssets"
+   },
+   {
+    "id": "s3",
+    "op": "rank",
+    "input": "s2",
+    "order": "asc",
+    "k": 1
+   }
+  ],
+  "answer": "s3"
+ }
+}

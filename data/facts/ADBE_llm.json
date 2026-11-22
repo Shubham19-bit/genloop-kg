@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "ADBE",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "ADBE_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ADBE",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "San Jose, California",
+  "unit": null,
+  "period": null,
+  "doc": "ADBE_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "345 Park Avenue, San Jose, California 95110-2704 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ADBE",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Shantanu Narayen",
+  "unit": null,
+  "period": null,
+  "doc": "ADBE_10K_FY2025.pdf",
+  "page": 154,
+  "evidence": "/s/ SHANTANU NARAYEN Shantanu Narayen Chair of the Board of Directors and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "ADBE",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Digital Media",
+   "Digital Experience",
+   "Publishing and Advertising"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "ADBE_10K_FY2025.pdf",
+  "page": 65,
+  "evidence": "In fiscal 2025, we categorized our products into the following reportable segments: \u2022 Digital Media\u2014Our Digital Media segment provides products and services that enable individuals, teams, businesses, and enterprises to create, publish and promote their content anywhere and accelerate their productivity by transforming how they view, share, engage with and collaborate on documents and creative content.",
+  "method": "llm+quote_check"
+ }
+]

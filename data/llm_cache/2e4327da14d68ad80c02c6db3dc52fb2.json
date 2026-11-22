@@ -1,0 +1,18 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"steps\":[{\"id\":\"s1\",\"op\":\"metric\",\"input\":[\"JPM\"],\"metric\":\"TotalAssets\"}],\"answer\":\"s1\"}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "metric",
+    "input": [
+     "JPM"
+    ],
+    "metric": "TotalAssets"
+   }
+  ],
+  "answer": "s1"
+ }
+}

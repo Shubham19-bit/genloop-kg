@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"North America\", \"Europe, Middle East & Africa\", \"Greater China\", \"Asia Pacific & Latin America\", \"Converse\"], \"page\": 8, \"quote\": \"The Company's reportable operating segments for the NIKE Brand are: North America; Europe, Middle East & Africa (\\\"EMEA\\\"); Greater China; and Asia Pacific & Latin America (\\\"APLA\\\"), and include results for the NIKE and Jordan brands.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "North America",
+     "Europe, Middle East & Africa",
+     "Greater China",
+     "Asia Pacific & Latin America",
+     "Converse"
+    ],
+    "page": 8,
+    "quote": "The Company's reportable operating segments for the NIKE Brand are: North America; Europe, Middle East & Africa (\"EMEA\"); Greater China; and Asia Pacific & Latin America (\"APLA\"), and include results for the NIKE and Jordan brands."
+   }
+  ]
+ }
+}

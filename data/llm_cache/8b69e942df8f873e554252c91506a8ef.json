@@ -1,0 +1,17 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"facts\": [\n    {\n      \"predicate\": \"HAS_SEGMENT\",\n      \"value\": [\n        \"Biopharma\"\n      ],\n      \"page\": 196,\n      \"quote\": \"We manage our commercial operations through three operating segments, each led by a single manager: Biopharma, PC1 and Pfizer Ignite. Biopharma is the only reportable segment.\"\n    }\n  ]\n}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Biopharma"
+    ],
+    "page": 196,
+    "quote": "We manage our commercial operations through three operating segments, each led by a single manager: Biopharma, PC1 and Pfizer Ignite. Biopharma is the only reportable segment."
+   }
+  ]
+ }
+}

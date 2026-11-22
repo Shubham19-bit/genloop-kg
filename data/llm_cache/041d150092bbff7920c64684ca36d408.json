@@ -1,0 +1,18 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Pharmaceutical\", \"Animal Health\"], \"page\": 4, \"quote\": \"The Company's operations are principally managed on a product basis and include two operating segments, Pharmaceutical and Animal Health, both of which are reportable segments.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Pharmaceutical",
+     "Animal Health"
+    ],
+    "page": 4,
+    "quote": "The Company's operations are principally managed on a product basis and include two operating segments, Pharmaceutical and Animal Health, both of which are reportable segments."
+   }
+  ]
+ }
+}

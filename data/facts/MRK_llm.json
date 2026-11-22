@@ -1,0 +1,53 @@
+[
+ {
+  "ticker": "MRK",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Rahway, New Jersey",
+  "unit": null,
+  "period": null,
+  "doc": "MRK_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Merck & Co., Inc.\n126 East Lincoln Avenue\nRahway New Jersey 07065",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MRK",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "New Jersey",
+  "unit": null,
+  "period": null,
+  "doc": "MRK_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation) (I.R.S. Employer Identification No.)\nNew Jersey 22-1918501",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MRK",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Robert M. Davis",
+  "unit": null,
+  "period": null,
+  "doc": "MRK_10K_FY2025.pdf",
+  "page": 252,
+  "evidence": "By: ROBERT M. DAVIS (Chairman, Chief Executive Officer and President)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MRK",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Pharmaceutical",
+   "Animal Health"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "MRK_10K_FY2025.pdf",
+  "page": 4,
+  "evidence": "The Company's operations are principally managed on a product basis and include two operating segments, Pharmaceutical and Animal Health, both of which are reportable segments.",
+  "method": "llm+quote_check"
+ }
+]

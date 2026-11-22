@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"J. Duato\", \"page\": 126, \"quote\": \"/s/ J. Duato\\nJ. Duato, Chairman of the Board\\nand Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "J. Duato",
+    "page": 126,
+    "quote": "/s/ J. Duato\nJ. Duato, Chairman of the Board\nand Chief Executive Officer"
+   }
+  ]
+ }
+}

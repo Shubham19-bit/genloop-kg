@@ -1,0 +1,40 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"steps\": [\n    {\n      \"id\": \"s1\",\n      \"op\": \"companies\",\n      \"sector\": \"Consumer\"\n    },\n    {\n      \"id\": \"s2\",\n      \"op\": \"metric\",\n      \"input\": \"s1\",\n      \"metric\": \"NetIncome\"\n    },\n    {\n      \"id\": \"s3\",\n      \"op\": \"metric\",\n      \"input\": \"s1\",\n      \"metric\": \"TotalAssets\"\n    },\n    {\n      \"id\": \"s4\",\n      \"op\": \"ratio\",\n      \"numerator\": \"s2\",\n      \"denominator\": \"s3\"\n    },\n    {\n      \"id\": \"s5\",\n      \"op\": \"rank\",\n      \"input\": \"s4\",\n      \"order\": \"desc\",\n      \"k\": 1\n    }\n  ],\n  \"answer\": \"s5\"\n}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "sector": "Consumer"
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "NetIncome"
+   },
+   {
+    "id": "s3",
+    "op": "metric",
+    "input": "s1",
+    "metric": "TotalAssets"
+   },
+   {
+    "id": "s4",
+    "op": "ratio",
+    "numerator": "s2",
+    "denominator": "s3"
+   },
+   {
+    "id": "s5",
+    "op": "rank",
+    "input": "s4",
+    "order": "desc",
+    "k": 1
+   }
+  ],
+  "answer": "s5"
+ }
+}

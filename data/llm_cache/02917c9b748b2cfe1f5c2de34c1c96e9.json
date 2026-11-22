@@ -1,0 +1,18 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Primary\", \"Other\"], \"page\": 90, \"quote\": \"For disclosure purposes, we aggregate these three geographic operating segments into one reportable segment (the \u201cPrimary segment\u201d) due to the similar nature of their operations and economic characteristics.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Primary",
+     "Other"
+    ],
+    "page": 90,
+    "quote": "For disclosure purposes, we aggregate these three geographic operating segments into one reportable segment (the \u201cPrimary segment\u201d) due to the similar nature of their operations and economic characteristics."
+   }
+  ]
+ }
+}

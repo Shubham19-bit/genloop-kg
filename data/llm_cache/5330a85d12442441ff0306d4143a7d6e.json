@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Productivity and Business Processes\", \"Intelligent Cloud\", \"More Personal Computing\"], \"page\": 58, \"quote\": \"We report our financial performance based on the following segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Productivity and Business Processes",
+     "Intelligent Cloud",
+     "More Personal Computing"
+    ],
+    "page": 58,
+    "quote": "We report our financial performance based on the following segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing."
+   }
+  ]
+ }
+}

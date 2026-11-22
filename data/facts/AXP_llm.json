@@ -1,0 +1,55 @@
+[
+ {
+  "ticker": "AXP",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "New York, New York",
+  "unit": null,
+  "period": null,
+  "doc": "AXP_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "200 Vesey Street\nNew York, New York 10285\n(Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AXP",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "New York",
+  "unit": null,
+  "period": null,
+  "doc": "AXP_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "New York 13-4922250\n(State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AXP",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Stephen J. Squeri",
+  "unit": null,
+  "period": null,
+  "doc": "AXP_10K_FY2025.pdf",
+  "page": 231,
+  "evidence": "/s/ STEPHEN J. SQUERI Stephen J. Squeri Chairman, Chief Executive Officer and Director",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "AXP",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "U.S. Consumer Services (USCS)",
+   "Commercial Services (CS)",
+   "International Card Services (ICS)",
+   "Global Merchant and Network Services (GMNS)"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "AXP_10K_FY2025.pdf",
+  "page": 6,
+  "evidence": "We principally engage in businesses comprising four reportable operating segments: U.S. Consumer Services (USCS), Commercial Services (CS), International Card Services (ICS) and Global Merchant and Network Services (GMNS).",
+  "method": "llm+quote_check"
+ }
+]

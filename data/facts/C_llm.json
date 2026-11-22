@@ -1,0 +1,57 @@
+[
+ {
+  "ticker": "C",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "C_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "C",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "New York, NY",
+  "unit": null,
+  "period": null,
+  "doc": "C_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "388 Greenwich Street, New York NY 10013",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "C",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Jane Fraser",
+  "unit": null,
+  "period": null,
+  "doc": "C_10K_FY2025.pdf",
+  "page": 424,
+  "evidence": "/s/ Jane Fraser\nJane Fraser\nCitigroup\u2019s Principal Executive Officer and Board Chair:",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "C",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Services",
+   "Markets",
+   "Banking",
+   "Wealth",
+   "USPB",
+   "All Other"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "C_10K_FY2025.pdf",
+  "page": 232,
+  "evidence": "Citi is organized into five reportable business segments: Services, Markets, Banking, Wealth and U.S. Personal Banking (USPB), with the remaining operations recorded in All Other",
+  "method": "llm+quote_check"
+ }
+]

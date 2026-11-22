@@ -1,0 +1,34 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"steps\":[{\"id\":\"s1\",\"op\":\"companies\",\"sector\":\"Consumer\"},{\"id\":\"s2\",\"op\":\"metric\",\"input\":\"s1\",\"metric\":\"NetIncome\"},{\"id\":\"s3\",\"op\":\"rank\",\"input\":\"s2\",\"order\":\"asc\",\"k\":1},{\"id\":\"s4\",\"op\":\"attribute\",\"input\":\"s3\",\"relation\":\"HAS_SEGMENT\"}],\"answer\":\"s4\"}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "sector": "Consumer"
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "NetIncome"
+   },
+   {
+    "id": "s3",
+    "op": "rank",
+    "input": "s2",
+    "order": "asc",
+    "k": 1
+   },
+   {
+    "id": "s4",
+    "op": "attribute",
+    "input": "s3",
+    "relation": "HAS_SEGMENT"
+   }
+  ],
+  "answer": "s4"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Global Banking & Markets\", \"Asset & Wealth Management\", \"Platform Solutions\"], \"page\": 8, \"quote\": \"We manage and report our activities in three business segments: Global Banking & Markets, Asset & Wealth Management and Platform Solutions.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Global Banking & Markets",
+     "Asset & Wealth Management",
+     "Platform Solutions"
+    ],
+    "page": 8,
+    "quote": "We manage and report our activities in three business segments: Global Banking & Markets, Asset & Wealth Management and Platform Solutions."
+   }
+  ]
+ }
+}

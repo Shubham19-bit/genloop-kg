@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Washington\", \"page\": 1, \"quote\": \"(STATE OF INCORPORATION) (I.R.S. ID)\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Redmond, Washington\", \"page\": 1, \"quote\": \"ONE MICROSOFT WAY, REDMOND, WASHINGTON 98052-6399\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Washington",
+    "page": 1,
+    "quote": "(STATE OF INCORPORATION) (I.R.S. ID)"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Redmond, Washington",
+    "page": 1,
+    "quote": "ONE MICROSOFT WAY, REDMOND, WASHINGTON 98052-6399"
+   }
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"State or other jurisdiction of incorporation or organization: Delaware\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Charlotte, North Carolina\", \"page\": 1, \"quote\": \"Address of principal executive offices: Bank of America Corporate Center 100 N. Tryon Street Charlotte, North Carolina 28255\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "State or other jurisdiction of incorporation or organization: Delaware"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Charlotte, North Carolina",
+    "page": 1,
+    "quote": "Address of principal executive offices: Bank of America Corporate Center 100 N. Tryon Street Charlotte, North Carolina 28255"
+   }
+  ]
+ }
+}

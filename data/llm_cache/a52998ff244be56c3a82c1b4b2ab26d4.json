@@ -1,0 +1,70 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\n  \"steps\": [\n    {\n      \"id\": \"s1\",\n      \"op\": \"companies\",\n      \"tickers\": [\n        \"AAPL\",\n        \"MSFT\",\n        \"GOOGL\",\n        \"AMZN\",\n        \"META\",\n        \"NVDA\",\n        \"ORCL\",\n        \"ADBE\",\n        \"CRM\",\n        \"JPM\",\n        \"BAC\",\n        \"WFC\",\n        \"C\",\n        \"GS\",\n        \"MS\",\n        \"V\",\n        \"MA\",\n        \"AXP\",\n        \"WMT\",\n        \"COST\",\n        \"TGT\",\n        \"HD\",\n        \"LOW\",\n        \"NKE\",\n        \"MCD\",\n        \"KO\",\n        \"PEP\",\n        \"JNJ\",\n        \"PFE\",\n        \"MRK\",\n        \"ABBV\",\n        \"LLY\",\n        \"UNH\",\n        \"TMO\",\n        \"AMGN\"\n      ]\n    },\n    {\n      \"id\": \"s2\",\n      \"op\": \"metric\",\n      \"input\": \"s1\",\n      \"metric\": \"Revenue\"\n    },\n    {\n      \"id\": \"s3\",\n      \"op\": \"rank\",\n      \"input\": \"s2\",\n      \"order\": \"desc\",\n      \"k\": 1\n    },\n    {\n      \"id\": \"s4\",\n      \"op\": \"attribute\",\n      \"input\": \"s3\",\n      \"relation\": \"AUDITED_BY\"\n    }\n  ],\n  \"answer\": \"s4\"\n}",
+ "parsed": {
+  "steps": [
+   {
+    "id": "s1",
+    "op": "companies",
+    "tickers": [
+     "AAPL",
+     "MSFT",
+     "GOOGL",
+     "AMZN",
+     "META",
+     "NVDA",
+     "ORCL",
+     "ADBE",
+     "CRM",
+     "JPM",
+     "BAC",
+     "WFC",
+     "C",
+     "GS",
+     "MS",
+     "V",
+     "MA",
+     "AXP",
+     "WMT",
+     "COST",
+     "TGT",
+     "HD",
+     "LOW",
+     "NKE",
+     "MCD",
+     "KO",
+     "PEP",
+     "JNJ",
+     "PFE",
+     "MRK",
+     "ABBV",
+     "LLY",
+     "UNH",
+     "TMO",
+     "AMGN"
+    ]
+   },
+   {
+    "id": "s2",
+    "op": "metric",
+    "input": "s1",
+    "metric": "Revenue"
+   },
+   {
+    "id": "s3",
+    "op": "rank",
+    "input": "s2",
+    "order": "desc",
+    "k": 1
+   },
+   {
+    "id": "s4",
+    "op": "attribute",
+    "input": "s3",
+    "relation": "AUDITED_BY"
+   }
+  ],
+  "answer": "s4"
+ }
+}

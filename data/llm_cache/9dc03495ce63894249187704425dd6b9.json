@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"Ramon L. Laguarta\", \"page\": 229, \"quote\": \"/s/ Ramon L. Laguarta Chairman of the Board of Directors February 2, 2026 Ramon L. Laguarta and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "Ramon L. Laguarta",
+    "page": 229,
+    "quote": "/s/ Ramon L. Laguarta Chairman of the Board of Directors February 2, 2026 Ramon L. Laguarta and Chief Executive Officer"
+   }
+  ]
+ }
+}

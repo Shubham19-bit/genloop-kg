@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "WMT",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "WMT_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Delaware (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "WMT",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Bentonville, AR",
+  "unit": null,
+  "period": null,
+  "doc": "WMT_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "1 Customer Drive Bentonville, AR 72716 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "WMT",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "John R. Furner",
+  "unit": null,
+  "period": null,
+  "doc": "WMT_10K_FY2025.pdf",
+  "page": 135,
+  "evidence": "John R. Furner President and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "WMT",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Walmart U.S.",
+   "Walmart International",
+   "Sam's Club U.S."
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "WMT_10K_FY2025.pdf",
+  "page": 121,
+  "evidence": "The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S.",
+  "method": "llm+quote_check"
+ }
+]

@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "GOOGL",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Mountain View, CA",
+  "unit": null,
+  "period": null,
+  "doc": "GOOGL_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "1600 Amphitheatre Parkway Mountain View, CA 94043 (Address of principal executive offices, including zip code)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "GOOGL",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "GOOGL_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Delaware 61-1767919 (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "GOOGL",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Sundar Pichai",
+  "unit": null,
+  "period": null,
+  "doc": "GOOGL_10K_FY2025.pdf",
+  "page": 162,
+  "evidence": "By: /S/ SUNDAR PICHAI Sundar Pichai Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "GOOGL",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Google Services",
+   "Google Cloud",
+   "Other Bets"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "GOOGL_10K_FY2025.pdf",
+  "page": 66,
+  "evidence": "We report our segment results as Google Services, Google Cloud, and Other Bets.",
+  "method": "llm+quote_check"
+ }
+]

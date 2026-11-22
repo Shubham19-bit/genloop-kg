@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"North Chicago, Illinois\", \"page\": 1, \"quote\": \"1 North Waukegan Road\\nNorth Chicago, Illinois 60064-6400\\n(Address, including zip code, and telephone number of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"(Exact name of registrant as specified in its charter)\\nDelaware 32-0375147\\n(State or other jurisdiction of (I.R.S. employer\\nincorporation or organization) identification number)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "North Chicago, Illinois",
+    "page": 1,
+    "quote": "1 North Waukegan Road\nNorth Chicago, Illinois 60064-6400\n(Address, including zip code, and telephone number of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "(Exact name of registrant as specified in its charter)\nDelaware 32-0375147\n(State or other jurisdiction of (I.R.S. employer\nincorporation or organization) identification number)"
+   }
+  ]
+ }
+}

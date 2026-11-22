@@ -1,0 +1,15 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"CEO\", \"value\": \"James Quincey\", \"page\": 234, \"quote\": \"By: /s/ JAMES QUINCEY James Quincey Chairman of the Board of Directors and Chief Executive Officer\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "CEO",
+    "value": "James Quincey",
+    "page": 234,
+    "quote": "By: /s/ JAMES QUINCEY James Quincey Chairman of the Board of Directors and Chief Executive Officer"
+   }
+  ]
+ }
+}

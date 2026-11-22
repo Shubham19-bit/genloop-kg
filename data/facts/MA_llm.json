@@ -1,0 +1,52 @@
+[
+ {
+  "ticker": "MA",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Purchase, NY",
+  "unit": null,
+  "period": null,
+  "doc": "MA_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "2000 Purchase Street Purchase, NY 10577 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MA",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "MA_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MA",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Michael Miebach",
+  "unit": null,
+  "period": null,
+  "doc": "MA_10K_FY2025.pdf",
+  "page": 183,
+  "evidence": "Michael Miebach President and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MA",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Payment Solutions"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "MA_10K_FY2025.pdf",
+  "page": 165,
+  "evidence": "Mastercard has concluded it has one reportable operating segment, \u201cPayment Solutions.\u201d",
+  "method": "llm+quote_check"
+ }
+]

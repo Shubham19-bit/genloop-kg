@@ -1,0 +1,20 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Consumer Banking and Lending\", \"Commercial Banking\", \"Corporate and Investment Banking\", \"Wealth and Investment Management\"], \"page\": 47, \"quote\": \"Our management reporting is organized into four reportable Taxable-Equivalent Adjustments. Taxable-equivalent operating segments: Consumer Banking and Lending; adjustments related to tax-exempt income on certain loans and Commercial Banking; Corporate and Investment Banking; and debt securities are included in net interest income, while Wealth and Investment Management.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Consumer Banking and Lending",
+     "Commercial Banking",
+     "Corporate and Investment Banking",
+     "Wealth and Investment Management"
+    ],
+    "page": 47,
+    "quote": "Our management reporting is organized into four reportable Taxable-Equivalent Adjustments. Taxable-equivalent operating segments: Consumer Banking and Lending; adjustments related to tax-exempt income on certain loans and Commercial Banking; Corporate and Investment Banking; and debt securities are included in net interest income, while Wealth and Investment Management."
+   }
+  ]
+ }
+}

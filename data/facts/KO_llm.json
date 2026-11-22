@@ -1,0 +1,56 @@
+[
+ {
+  "ticker": "KO",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Atlanta, Georgia",
+  "unit": null,
+  "period": null,
+  "doc": "KO_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "One Coca-Cola Plaza Atlanta, Georgia 30313 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "KO",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "KO_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "KO",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "James Quincey",
+  "unit": null,
+  "period": null,
+  "doc": "KO_10K_FY2025.pdf",
+  "page": 234,
+  "evidence": "By: /s/ JAMES QUINCEY James Quincey Chairman of the Board of Directors and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "KO",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "EMEA",
+   "Latin America",
+   "North America",
+   "Asia Pacific",
+   "Bottling Investments"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "KO_10K_FY2025.pdf",
+  "page": 7,
+  "evidence": "The Company's operating structure is the basis for our internal financial reporting. Our operating structure includes the following operating segments: \u2022 EMEA \u2022 Latin America \u2022 North America \u2022 Asia Pacific \u2022 Bottling Investments",
+  "method": "llm+quote_check"
+ }
+]

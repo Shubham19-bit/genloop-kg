@@ -1,0 +1,55 @@
+[
+ {
+  "ticker": "UNH",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "UNH_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "UnitedHealth Group Incorporated (Exact name of registrant as specified in its charter) Delaware 41-1321939 (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "UNH",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Eden Prairie, Minnesota",
+  "unit": null,
+  "period": null,
+  "doc": "UNH_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "1 Health Drive 655 New York Avenue NW Eden Prairie, Minnesota 55344 Washington, DC 20001 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "UNH",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Stephen Hemsley",
+  "unit": null,
+  "period": null,
+  "doc": "UNH_10K_FY2025.pdf",
+  "page": 132,
+  "evidence": "By /s/ STEPHEN HEMSLEY Stephen Hemsley Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "UNH",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Optum Health",
+   "Optum Insight",
+   "Optum Rx",
+   "UnitedHealthcare"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "UNH_10K_FY2025.pdf",
+  "page": 48,
+  "evidence": "We have four reportable segments across our two businesses: Optum Health; Optum Insight; Optum Rx; and UnitedHealthcare",
+  "method": "llm+quote_check"
+ }
+]

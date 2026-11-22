@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"New Brunswick, New Jersey\", \"page\": 1, \"quote\": \"One Johnson & Johnson Plaza\\nNew Brunswick, New Jersey 08933\\n(Address of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"New Jersey\", \"page\": 1, \"quote\": \"Johnson & Johnson\\n(Exact name of registrant as specified in its charter)\\nNew Jersey 22-1024240\\n(State of incorporation) (I.R.S. Employer Identification No.)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "New Brunswick, New Jersey",
+    "page": 1,
+    "quote": "One Johnson & Johnson Plaza\nNew Brunswick, New Jersey 08933\n(Address of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "New Jersey",
+    "page": 1,
+    "quote": "Johnson & Johnson\n(Exact name of registrant as specified in its charter)\nNew Jersey 22-1024240\n(State of incorporation) (I.R.S. Employer Identification No.)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Single Segment\"], \"page\": 74, \"quote\": \"We operate as a single segment that includes all of our operations, which are designed to enable guests to purchase products seamlessly in stores or through our digital channels.\"}, {\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Single Segment\"], \"page\": 4, \"quote\": \"We operate as a single segment designed to enable guests to purchase products seamlessly in stores or through our digital channels.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Single Segment"
+    ],
+    "page": 74,
+    "quote": "We operate as a single segment that includes all of our operations, which are designed to enable guests to purchase products seamlessly in stores or through our digital channels."
+   },
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Single Segment"
+    ],
+    "page": 4,
+    "quote": "We operate as a single segment designed to enable guests to purchase products seamlessly in stores or through our digital channels."
+   }
+  ]
+ }
+}

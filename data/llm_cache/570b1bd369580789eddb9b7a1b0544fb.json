@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"(State or other jurisdiction of incorporation or organization)\"}, {\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"San Jose, California\", \"page\": 1, \"quote\": \"345 Park Avenue, San Jose, California 95110-2704 (Address of principal executive offices)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "(State or other jurisdiction of incorporation or organization)"
+   },
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "San Jose, California",
+    "page": 1,
+    "quote": "345 Park Avenue, San Jose, California 95110-2704 (Address of principal executive offices)"
+   }
+  ]
+ }
+}

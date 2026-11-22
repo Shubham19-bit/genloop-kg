@@ -1,0 +1,53 @@
+[
+ {
+  "ticker": "HD",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Atlanta, Georgia",
+  "unit": null,
+  "period": null,
+  "doc": "HD_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "2455 Paces Ferry Road Atlanta, Georgia 30339 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "HD",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "HD_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "HD",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Edward P. Decker",
+  "unit": null,
+  "period": null,
+  "doc": "HD_10K_FY2025.pdf",
+  "page": 142,
+  "evidence": "Edward P. Decker, Chair, President and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "HD",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Primary",
+   "Other"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "HD_10K_FY2025.pdf",
+  "page": 90,
+  "evidence": "For disclosure purposes, we aggregate these three geographic operating segments into one reportable segment (the \u201cPrimary segment\u201d) due to the similar nature of their operations and economic characteristics.",
+  "method": "llm+quote_check"
+ }
+]

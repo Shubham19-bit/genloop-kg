@@ -1,0 +1,40 @@
+[
+ {
+  "ticker": "PFE",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "PFE_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "PFE",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Albert Bourla",
+  "unit": null,
+  "period": null,
+  "doc": "PFE_10K_FY2025.pdf",
+  "page": 219,
+  "evidence": "/S/ ALBERT BOURLA Chairman, Chief Executive Officer and Director",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "PFE",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Biopharma"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "PFE_10K_FY2025.pdf",
+  "page": 196,
+  "evidence": "We manage our commercial operations through three operating segments, each led by a single manager: Biopharma, PC1 and Pfizer Ignite. Biopharma is the only reportable segment.",
+  "method": "llm+quote_check"
+ }
+]

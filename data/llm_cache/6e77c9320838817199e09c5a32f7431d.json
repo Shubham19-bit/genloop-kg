@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Consumer Banking\", \"GWIM\", \"Global Banking\", \"Global Markets\", \"All Other\"], \"page\": 70, \"quote\": \"We report our results of operations through the following four business segments: Consumer Banking, GWIM, Global Banking and Global Markets, with the remaining operations recorded in All Other.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Consumer Banking",
+     "GWIM",
+     "Global Banking",
+     "Global Markets",
+     "All Other"
+    ],
+    "page": 70,
+    "quote": "We report our results of operations through the following four business segments: Consumer Banking, GWIM, Global Banking and Global Markets, with the remaining operations recorded in All Other."
+   }
+  ]
+ }
+}

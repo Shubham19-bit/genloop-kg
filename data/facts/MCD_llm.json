@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "MCD",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "MCD_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "(State or other jurisdiction of incorporation or organization) Delaware",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MCD",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "Chicago, Illinois",
+  "unit": null,
+  "period": null,
+  "doc": "MCD_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "110 North Carpenter Street, Chicago, Illinois 60607 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MCD",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "Christopher J. Kempczinski",
+  "unit": null,
+  "period": null,
+  "doc": "MCD_10K_FY2025.pdf",
+  "page": 93,
+  "evidence": "Christopher J. Kempczinski Chairman of the Board of Directors, President, and Chief Executive Officer",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "MCD",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "United States",
+   "International Operated Markets",
+   "International Developmental Licensed Markets & Corporate"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "MCD_10K_FY2025.pdf",
+  "page": 4,
+  "evidence": "Significant reportable segments include the United States (\"U.S.\") and International Operated Markets. In addition, the International Developmental Licensed Markets & Corporate includes the results of over 75 countries as well as Corporate activities.",
+  "method": "llm+quote_check"
+ }
+]

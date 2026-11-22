@@ -1,0 +1,22 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HAS_SEGMENT\", \"value\": [\"Consumer Banking\", \"Corporate & Commercial Banking\", \"Commercial Banking\", \"Investment Bank\", \"Asset Management\", \"Treasury & Securities Finance\"], \"page\": 519, \"quote\": \"Results of the reportable business segments are intended to present each segment as if it were a stand-alone business.\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HAS_SEGMENT",
+    "value": [
+     "Consumer Banking",
+     "Corporate & Commercial Banking",
+     "Commercial Banking",
+     "Investment Bank",
+     "Asset Management",
+     "Treasury & Securities Finance"
+    ],
+    "page": 519,
+    "quote": "Results of the reportable business segments are intended to present each segment as if it were a stand-alone business."
+   }
+  ]
+ }
+}

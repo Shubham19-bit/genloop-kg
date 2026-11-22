@@ -1,0 +1,54 @@
+[
+ {
+  "ticker": "GS",
+  "kind": "attribute",
+  "predicate": "INCORPORATED_IN",
+  "value": "Delaware",
+  "unit": null,
+  "period": null,
+  "doc": "GS_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "Delaware (State or other jurisdiction of incorporation or organization)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "GS",
+  "kind": "attribute",
+  "predicate": "HEADQUARTERED_IN",
+  "value": "New York, NY",
+  "unit": null,
+  "period": null,
+  "doc": "GS_10K_FY2025.pdf",
+  "page": 1,
+  "evidence": "200 West Street, New York, NY 10282 (Address of principal executive offices)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "GS",
+  "kind": "attribute",
+  "predicate": "CEO",
+  "value": "David Solomon",
+  "unit": null,
+  "period": null,
+  "doc": "GS_10K_FY2025.pdf",
+  "page": 596,
+  "evidence": "Name: David Solomon Title: Director, Chairman and Chief Executive Officer (Principal Executive Officer)",
+  "method": "llm+quote_check"
+ },
+ {
+  "ticker": "GS",
+  "kind": "attribute",
+  "predicate": "HAS_SEGMENT",
+  "value": [
+   "Global Banking & Markets",
+   "Asset & Wealth Management",
+   "Platform Solutions"
+  ],
+  "unit": null,
+  "period": null,
+  "doc": "GS_10K_FY2025.pdf",
+  "page": 8,
+  "evidence": "We manage and report our activities in three business segments: Global Banking & Markets, Asset & Wealth Management and Platform Solutions.",
+  "method": "llm+quote_check"
+ }
+]

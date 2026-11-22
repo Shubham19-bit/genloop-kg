@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"New York, NY\", \"page\": 1, \"quote\": \"200 West Street, New York, NY 10282 (Address of principal executive offices)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"(State or other jurisdiction of incorporation or organization) Delaware\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "New York, NY",
+    "page": 1,
+    "quote": "200 West Street, New York, NY 10282 (Address of principal executive offices)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "(State or other jurisdiction of incorporation or organization) Delaware"
+   }
+  ]
+ }
+}

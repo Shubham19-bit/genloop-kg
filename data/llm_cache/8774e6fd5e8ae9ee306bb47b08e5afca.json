@@ -1,0 +1,21 @@
+{
+ "provider": "ollama",
+ "model": "qwen3.5:9b",
+ "raw": "{\"facts\": [{\"predicate\": \"HEADQUARTERED_IN\", \"value\": \"Mountain View, CA\", \"page\": 1, \"quote\": \"1600 Amphitheatre Parkway Mountain View, CA 94043 (Address of principal executive offices, including zip code)\"}, {\"predicate\": \"INCORPORATED_IN\", \"value\": \"Delaware\", \"page\": 1, \"quote\": \"Delaware 61-1767919 (State or other jurisdiction of incorporation or organization)\"}]}",
+ "parsed": {
+  "facts": [
+   {
+    "predicate": "HEADQUARTERED_IN",
+    "value": "Mountain View, CA",
+    "page": 1,
+    "quote": "1600 Amphitheatre Parkway Mountain View, CA 94043 (Address of principal executive offices, including zip code)"
+   },
+   {
+    "predicate": "INCORPORATED_IN",
+    "value": "Delaware",
+    "page": 1,
+    "quote": "Delaware 61-1767919 (State or other jurisdiction of incorporation or organization)"
+   }
+  ]
+ }
+}
