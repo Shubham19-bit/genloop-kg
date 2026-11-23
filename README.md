@@ -100,9 +100,9 @@ Details are in `benchmark/README.md`.
 
 ## How AI tools were used
 
-- **Claude (Anthropic)** was my pair-programmer and tutor. It helped plan the approach, explained SEC filings and knowledge-graph design as I studied them, wrote most of the code with me, and diagnosed extraction failures on the real filings. It also drafted the benchmark question wording and the first draft of this README and the results PDF. I reviewed, edited and ran everything, and I can walk through every design decision.
-- **Gemini (chat)** was used only to *locate* gold values in the PDFs, following the rubric above. Every number it returned was verified against XBRL, and the text facts were checked on the page.
-- **Qwen 3.5 9B (local, via Ollama)** runs inside the pipeline for two jobs: extracting text facts (with an exact-quote check) and turning questions into plans. It never extracts numbers or writes answers. No paid services were used.
+- **Claude (Anthropic):** I used Claude as a tutor and coding partner. It helped me plan the project, explained SEC filings and knowledge graphs while I learned them, wrote most of the code with me, and helped fix extraction problems. It also drafted the benchmark questions, this README and the results PDF. I checked, edited and ran everything myself, and I can explain every design choice.
+- **Gemini (chat):** used only to find the gold answers in the PDFs. I checked every number it gave against the filing's XBRL tags, and every text answer on its page.
+- **Qwen 3.5 9B (local, through Ollama):** runs inside the pipeline and does two jobs: it reads text facts (HQ, CEO, segments), each of which must quote its page exactly, and it turns questions into query plans. It never reads numbers and never writes answers. Nothing paid was used.
 
 ## Known limitations
 
